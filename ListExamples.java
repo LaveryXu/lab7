@@ -41,7 +41,7 @@ class ListExamples {
     while(index2 < list2.size()) {
       result.add(list2.get(index2));
       // change index1 below to index2 to fix test
-      index1 += 1;
+      index1 += 1; // If you see this comment, when cloning Github into a local directory, the whole directory is overwritten.
     }
     return result;
   }
